@@ -1,0 +1,7 @@
+.container {
+    font-size: clamp(8rem, 30vw, 16rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
