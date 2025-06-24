@@ -33,13 +33,11 @@
 }
 
 .logoLink:hover {
-    animation: heartbeat 3s infinite 1s;
+    /* animation: heartbeat 3s infinite 1s; */
+    filter: brightness(80%);
 }
 
 .logoLink svg {
     width: 6.4rem;
     height: 6.4rem;
-}
-
-.logoTitle {
 }
