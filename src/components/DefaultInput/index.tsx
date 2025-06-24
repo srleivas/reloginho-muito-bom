@@ -1,11 +1,11 @@
 import styles from './styles.module.css';
 
-type InputProps = {
+type DefaultInputProps = {
     id: string;
     label: string;
 } & React.ComponentProps<'input'>;
 
-export function Input(props: InputProps) {
+export function DefaultInput(props: DefaultInputProps) {
     return (
         <>
             <label htmlFor={props.id}>{props.label}</label>

@@ -7,6 +7,7 @@ import { Cycles } from './components/Cycles';
 
 import './styles/theme.css';
 import './styles/global.css';
+import { DefaultInput } from './components/DefaultInput';
 
 export function App() {
     return (
@@ -26,7 +27,7 @@ export function App() {
             <Container>
                 <div className="form">
                     <div className="formRow">
-                        <Input
+                        <DefaultInput
                             id="input"
                             label="Label"
                             placeholder="Placeholder"
